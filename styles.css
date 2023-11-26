@@ -41,9 +41,12 @@ body{
 
 .avant{
     font-weight: 300;
-    color: burlywood;
-    font-family: 'Sacramento', cursive;
+    color: #c59352;
     font-size: 2rem;
+}
+
+.avant1{
+    font-family: 'Sacramento', cursive;
 }
 
 .photo-Avantis{
@@ -85,6 +88,6 @@ h2{
 
 @media (max-width: 926px){
     .text-about-us{
-        width: 80%;
+        width: 100%;
     }
 }
