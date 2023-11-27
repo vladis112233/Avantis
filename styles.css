@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
-body{
+body {
     margin: 0;
     height: 100%;
     font-family: Founders Grotesk XCondensed, sans-serif;
@@ -8,29 +8,29 @@ body{
     flex-direction: column;
 }
 
-.header{
+.header {
     width: 100%;
     position: sticky;
     top: 0;
     background: #FFFFFF;
 }
 
-.logo{
+.logo {
     max-width: 150px;
     width: 100%;
     height: 80px;
 }
 
-.container-body{
+.container-body {
     width: 100%;
     overflow-x: hidden;
 }
 
-.welcome{
+.welcome {
     width: 100%;
 }
 
-.text-welcome{
+.text-welcome {
     color: black;
     font-size: 2rem;
     text-align: center;
@@ -39,28 +39,29 @@ body{
     padding-left: 10px;
 }
 
-.avant{
+.avant {
     font-weight: 300;
     color: #c59352;
     font-size: 2rem;
 }
 
-.avant1{
+.avant1 {
     font-family: 'Sacramento', cursive;
 }
 
-.photo-Avantis{
+.photo-Avantis {
     max-width: 2500px;
     width: 100%;
 }
 
-.about-us{
+.box-infomation {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
 }
 
-.about-us-box{
+.about-us-box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -70,24 +71,91 @@ body{
     gap: 2rem;
 }
 
-.about-us-photo{
+.about-us-photo {
     width: 100%;
     max-width: 500px;
     border-radius: 20px;
 }
 
-h2{
+h2 {
     font-size: 2rem;
 }
 
-.text-about-us{
+.text-about-us {
     width: 40%;
     font-size: 1.5rem;
     text-align: center;
 }
 
-@media (max-width: 926px){
-    .text-about-us{
+@media (max-width: 926px) {
+    .text-about-us {
         width: 100%;
     }
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box-service {
+    max-width: 400px;
+    background: #c59352;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.service-con {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-why{
+    max-width: 700px;
+    text-align: center;
+    background: #c59352;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.why{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.foot{
+    background: #FFFFFF;
+    padding: 30px;
+    border-top: 2px solid #c59352;
+}
+
+.text-foot{
+    font-weight: 700;
+}
+
+.mail,
+.location,
+.phone,
+.schedule{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+}
+
+.link-mail-phone{
+    text-decoration: none;
+    color: black;
 }
